@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 70vw;
+  height: 50vh;
+  margin: 20% auto;
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+}
+
+.container-heading {
+  margin-top: 2rem;
+}
+
+.heading-text {
+  margin: 1rem auto;
+  text-align: center;
+  justify-content: center;
+}
+
+#heading-text {
+  text-align: center;
+}
+
+.freelancers {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(237, 237, 237);
+}
+
+.freelancers > div {
+  width: 33%;
+  padding: 1rem;
+}
+
+#name > ul,
+#occupation > ul,
+#price > ul {
+  margin-top: 10px;
+  list-style: none;
+}
